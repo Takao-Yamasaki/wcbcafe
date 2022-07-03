@@ -1,0 +1,61 @@
+/* コード文字化けを防ぐ */
+@charset "UTF-8";
+
+/* 共通部分 */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+  color: #432;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HEADER */
+.logo {
+  width: 210px;
+  margin-top: 14px;
+}
+
+.page-header {
+  /* 横並びの指定 */
+  display: flex;
+  /* 両端の設置の指定 */
+  justify-content: space-between;
+}
+
+.wrapper {
+  /* 横幅最大1100pxの指定 */
+  max-width: 1100px;
+  /* 中央に配置する指定 */
+  margin: 0 auto;
+  /* スマートフォン向け余白の指定 */
+  padding: 0 4%;
+}
+
+/* ナビゲーションメニュー */
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: #432;
+
+}.main-nav a :hover {
+  color: #0bd;
+}
