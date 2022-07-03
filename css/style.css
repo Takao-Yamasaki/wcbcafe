@@ -135,7 +135,8 @@ footer p {
 
 /* 記事部分 */
 article {
-  width: 74%;
+  width: 60%;
+  order: 2;
 }
 
 article img {
@@ -149,10 +150,15 @@ article p {
 /* サイドバー */
 aside {
   width: 22%;
+  order: 3;
 }
 
 aside p {
   padding: 12px 10px;
+}
+
+.ad {
+ order: 1; 
 }
 
 .post-info {
